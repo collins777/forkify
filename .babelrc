@@ -1,0 +1,16 @@
+{
+  "presets": [
+    // collection of code transform plugins
+    // babel will convert es6 to work with last
+    // 5 browser versions
+    // internet explorer 8 or higher
+    [
+      "env",
+      {
+        "targets": {
+          "browsers": ["last 5 versions", "ie >= 8"]
+        }
+      }
+    ]
+  ]
+}
